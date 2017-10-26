@@ -1,0 +1,10 @@
+.footer {
+  position:fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  display: inline-flex;
+  background-image: linear-gradient(to right, #ff9068, #fd746c);
+  border-top: 3px solid rgba(#3c2c49, 0.5);
+  min-height: 150px;
+}

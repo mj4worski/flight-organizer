@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PlaceTile component with backgroundImage as url-to-image 1`] = `
+<div
+  className="place-tile"
+  style={
+    Object {
+      "backgroundImage": "url(url-to-image)",
+      "backgroundPosition": "center center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <span
+    className="place-tile__front-panel"
+  />
+  <a
+    className="place-tile__link"
+    href="#"
+    onClick={[Function]}
+  >
+    <h2
+      className="place-tile__name"
+    >
+      Warsaw
+    </h2>
+  </a>
+</div>
+`;
+
+exports[`should render PlaceTile component with default image 1`] = `
+<div
+  className="place-tile"
+  style={
+    Object {
+      "backgroundImage": "url(test-file-stub)",
+      "backgroundPosition": "center center",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+    }
+  }
+>
+  <span
+    className="place-tile__front-panel"
+  />
+  <a
+    className="place-tile__link"
+    href="#"
+    onClick={[Function]}
+  >
+    <h2
+      className="place-tile__name"
+    >
+      Warsaw
+    </h2>
+  </a>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Flight component with arrivalTo and departureFrom props 1`] = `
+<section>
+  <h1>
+    Founded flights:
+  </h1>
+  <p>
+    From : 
+    Barcelona
+  </p>
+  <p>
+    To : 
+    Paris
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Book It
+  </button>
+</section>
+`;

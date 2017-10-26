@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render FlightList which contains Flight component 1`] = `
+<div>
+  <section>
+    <h1>
+      Founded flights:
+    </h1>
+    <p>
+      From : 
+      Barcelona
+    </p>
+    <p>
+      To : 
+      Paris
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Book It
+    </button>
+  </section>
+  <section>
+    <h1>
+      Founded flights:
+    </h1>
+    <p>
+      From : 
+      Moscow
+    </p>
+    <p>
+      To : 
+      Cracow
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Book It
+    </button>
+  </section>
+</div>
+`;
+
+exports[`should render FlightList with information about non existing flights 1`] = `
+<div>
+  <p>
+    Sorry, your current search result doesn't exist. Try different direction.
+  </p>
+</div>
+`;

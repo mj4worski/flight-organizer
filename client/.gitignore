@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+build/bundle.js
+build/bundle.js.map
+
+# dotenv environment variables file
+.idea/
+/package-lock.json
+client.iml
