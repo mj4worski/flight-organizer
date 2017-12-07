@@ -1,0 +1,11 @@
+### Instal MySQL
+sudo apt-get update
+sudo apt-get install mysql-server
+
+### Login as root
+mysql -u root -p
+
+### Create table and add user
+CREATE DATABASE flights; -- Create the new database
+CREATE USER 'user'@'user' identified by 'user'; -- Creates the user
+GRANT ALL ON flights.* to 'user'@'localhost'; -- Gives all the privileges to the new user on the newly created database
