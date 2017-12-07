@@ -18,16 +18,12 @@ module.exports = {
     historyApiFallback: true,
   },
   module: {
-    rules: [
-      {
-        test: /.js?$/,
-        loader: 'babel-loader',
+    rules: [{
+        test: /\.js$/,
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react'],
-          plugins: ['transform-es2015-destructuring', 'transform-object-rest-spread', ['transform-class-properties', { spec: true }]],
-        },
-      },
+        loader: "babel-loader"
+    }
+      ,
       {
         test: /\.scss$/,
         use: [
